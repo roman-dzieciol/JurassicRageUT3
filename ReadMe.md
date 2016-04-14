@@ -4,6 +4,7 @@ Mutator for UT3: PC & Playstation 3
 * Created by Roman Switch` Dzieciol, Jamie EvilSmiley Krautkremer and Alex Gibson
 * http://www.jurassic-rage.com
 * http://www.moddb.com/mods/jurassic-rage-iii
+* https://forums.epicgames.com/threads/625211-Jurassic-Rage-III-v105-Pics-Beta-Updated-11-14-2008
 
 Jurassic Rage mutator turns hunters into the hunted. Packs of hungry dinosaurs roam the battlefield,
  looking for anything they can gnaw on. Whatever are your objectives, stay sharp soldier!
