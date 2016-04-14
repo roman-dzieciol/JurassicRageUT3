@@ -1,0 +1,61 @@
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+class JRFamilyInfo_Raptor extends JRFamilyInfo_Dino;
+
+DefaultProperties
+{
+    
+    FamilyID="Raptor"
+    SoundGroupClass=Class'JR.JRPawnSoundGroup_Dino'
+    VoiceClass=None
+    Gibs(0)=(BoneName="Bone_ForeArm_Left",GibClass=Class'UTGame.UTGib_KrallArm')
+    Gibs(1)=(BoneName="Bone_ForeArm_Right",GibClass=Class'UTGame.UTGib_KrallHand')
+    Gibs(2)=(BoneName="Bone_Thigh_Left",GibClass=Class'UTGame.UTGib_KrallLeg')
+    Gibs(3)=(BoneName="Bone_Thigh_Right",GibClass=Class'UTGame.UTGib_KrallLeg')
+    Gibs(4)=(BoneName="Bone_Spine01",GibClass=Class'UTGame.UTGib_KrallTorso')
+    Gibs(5)=(BoneName="Bone_Tail01",GibClass=Class'UTGame.UTGib_KrallBone')
+    Gibs(6)=(BoneName="Bone_Tail03",GibClass=Class'UTGame.UTGib_KrallBone')
+    Gibs(7)=(BoneName="Bone_Tail05",GibClass=Class'UTGame.UTGib_KrallBone')
+    Gibs(8)=(BoneName="Bone_Neck01",GibClass=Class'UTGame.UTGib_KrallBone')
+    HeadGib=(BoneName="Bone_Head",GibClass=Class'UTGame.UTGib_KrallHead')
+    DrivingDrawScale=0.66
+    DefaultMeshScale=0.66
+    BaseTranslationOffset=0.0
+    PhysAsset=PhysicsAsset'JR_Raptor.RaptorPhysics'
+    AnimSets(0)=AnimSet'JR_Raptor.RaptorAnim'
+    LeftFootBone="Bone_Ankle_Left"
+    RightFootBone="Bone_Ankle_Right"
+    NonTeamEmissiveColor=(R=0.0,G=0.0,B=0.0,A=1.0)
+    NonTeamTintColor=(R=0.0,G=2.0,B=0.0,A=1.0)
+    
+    TakeHitPhysicsFixedBones.Empty
+	TakeHitPhysicsFixedBones.Add("Dummy_Hips")
+	TakeHitPhysicsFixedBones.Add("Bone_ass")
+	TakeHitPhysicsFixedBones.Add("Bone_Hip_Right")
+	TakeHitPhysicsFixedBones.Add("Bone_Thigh_Right")
+	TakeHitPhysicsFixedBones.Add("Bone_Shin_Right")
+	TakeHitPhysicsFixedBones.Add("Bone_Ankle_Right")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Middle_Right01")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Middle_Right02")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Middle_Right03")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Outside_Right01")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Outside_Right02")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Outside_Right03")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Claw_Right01")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Claw_Right02")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Claw_Right03")
+	TakeHitPhysicsFixedBones.Add("Bone_Hip_Left")
+	TakeHitPhysicsFixedBones.Add("Bone_Thigh_Left")
+	TakeHitPhysicsFixedBones.Add("Bone_Shin_Left")
+	TakeHitPhysicsFixedBones.Add("Bone_Ankle_Left")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Middle_Left01")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Middle_Left02")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Middle_Left03")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Outside_Left01")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Outside_Left02")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Outside_Left03")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Claw_Left01")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Claw_Left02")
+	TakeHitPhysicsFixedBones.Add("Bone_Toe_Claw_Left03")
+}

@@ -1,0 +1,60 @@
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+class JRFamilyInfo_Rex extends JRFamilyInfo_Dino;
+
+DefaultProperties
+{
+
+    FamilyID="Rex"
+    SoundGroupClass=Class'JR.JRPawnSoundGroup_Rex'
+    VoiceClass=None
+    Gibs(0)=(BoneName="Bone_ForeArm_Left",GibClass=Class'UTGame.UTGib_KrallArm')
+    Gibs(1)=(BoneName="Bone_ForeArm_Right",GibClass=Class'UTGame.UTGib_KrallHand')
+    Gibs(2)=(BoneName="Bone_Thigh_Left",GibClass=Class'UTGame.UTGib_KrallLeg')
+    Gibs(3)=(BoneName="Bone_Thigh_Right",GibClass=Class'UTGame.UTGib_KrallLeg')
+    Gibs(4)=(BoneName="Bone_Spine01",GibClass=Class'UTGame.UTGib_KrallTorso')
+    Gibs(5)=(BoneName="Bone_Tail01",GibClass=Class'UTGame.UTGib_KrallBone')
+    Gibs(6)=(BoneName="Bone_Tail03",GibClass=Class'UTGame.UTGib_KrallBone')
+    Gibs(7)=(BoneName="Bone_Tail05",GibClass=Class'UTGame.UTGib_KrallBone')
+    Gibs(8)=(BoneName="Bone_Neck01",GibClass=Class'UTGame.UTGib_KrallBone')
+    HeadGib=(BoneName="Bone_Head",GibClass=Class'UTGame.UTGib_KrallHead')
+    DrivingDrawScale=1.25
+    DefaultMeshScale=1.25
+    BaseTranslationOffset=0
+    PhysAsset=PhysicsAsset'JR_Rex.Rex_Physics'
+    AnimSets(0)=AnimSet'JR_Rex.Rex_Anims'
+    LeftFootBone="Bone_LAnkle"
+    RightFootBone="Bone_RAnkle01"
+    NonTeamEmissiveColor=(R=0.0,G=0.0,B=0.0,A=1.0)
+    NonTeamTintColor=(R=0.0,G=2.0,B=0.0,A=1.0)
+    
+    TakeHitPhysicsFixedBones.Empty
+	TakeHitPhysicsFixedBones.Add("Dummy_Hips")
+	TakeHitPhysicsFixedBones.Add("Bone_ass")
+	TakeHitPhysicsFixedBones.Add("Bone_root")
+	TakeHitPhysicsFixedBones.Add("Bone_LThigh")
+	TakeHitPhysicsFixedBones.Add("Bone_LShin")
+	TakeHitPhysicsFixedBones.Add("Bone_LAnkle")
+	TakeHitPhysicsFixedBones.Add("Bone_LmidToe01")
+	TakeHitPhysicsFixedBones.Add("Bone_LmidToe02")
+	TakeHitPhysicsFixedBones.Add("Bone_LmidToe03")
+	TakeHitPhysicsFixedBones.Add("Bone_LinToe01")
+	TakeHitPhysicsFixedBones.Add("Bone_LinToe02")
+	TakeHitPhysicsFixedBones.Add("Bone_LinToe03")
+	TakeHitPhysicsFixedBones.Add("Bone_LoutToe01")
+	TakeHitPhysicsFixedBones.Add("Bone_LoutToe02")
+	TakeHitPhysicsFixedBones.Add("Bone_LoutToe03")
+	TakeHitPhysicsFixedBones.Add("Bone_RThigh01")
+	TakeHitPhysicsFixedBones.Add("Bone_RShin01")
+	TakeHitPhysicsFixedBones.Add("Bone_RAnkle01")
+	TakeHitPhysicsFixedBones.Add("Bone_RmidToe04")
+	TakeHitPhysicsFixedBones.Add("Bone_RmidToe05")
+	TakeHitPhysicsFixedBones.Add("Bone_RmidToe06")
+	TakeHitPhysicsFixedBones.Add("Bone_RinToe04")
+	TakeHitPhysicsFixedBones.Add("Bone_RinToe05")
+	TakeHitPhysicsFixedBones.Add("Bone_RinToe06")
+	TakeHitPhysicsFixedBones.Add("Bone_RoutToe04")
+	TakeHitPhysicsFixedBones.Add("Bone_RoutToe05")
+	TakeHitPhysicsFixedBones.Add("Bone_RoutToe06")
+}
