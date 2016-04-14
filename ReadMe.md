@@ -1,8 +1,9 @@
-Jurassic Rage v105
-Mutator for UT3
-Created by Roman Switch` Dzieciol, Jamie EvilSmiley Krautkremer and Alex Gibson
-http://www.jurassic-rage.com
-http://www.moddb.com/mods/jurassic-rage-iii
+# Jurassic Rage
+
+Mutator for UT3: PC & Playstation 3
+* Created by Roman Switch` Dzieciol, Jamie EvilSmiley Krautkremer and Alex Gibson
+* http://www.jurassic-rage.com
+* http://www.moddb.com/mods/jurassic-rage-iii
 
 Jurassic Rage mutator turns hunters into the hunted. Packs of hungry dinosaurs roam the battlefield,
  looking for anything they can gnaw on. Whatever are your objectives, stay sharp soldier!
@@ -17,7 +18,7 @@ Tips:
 Enjoy!
  
 
-Changelog:
+## Changelog:
 
 v105:
  - Rex changes:
@@ -122,6 +123,3 @@ v36:
    * Being killed by a dino does not count as suicide anymore and doesn't decrease your score
  
 v24: (First release)
-
-
-EOF
