@@ -17,7 +17,9 @@ Tips:
  * Warning: Mixing those mutators with other mods may result in tons of extra fun and uncontrollable laughter! 
  
 Enjoy!
- 
+
+![](/Screenshots/Highres_Screenshot_00012.jpg)
+![](/Screenshots/Highres_Screenshot_00028-1680.jpg)
 
 ## Changelog:
 
