@@ -1,4 +1,4 @@
-# Jurassic Rage
+# Jurassic Rage UT3
 
 Mutator for UT3: PC & Playstation 3
 * Created by Roman Switch` Dzieciol, Jamie EvilSmiley Krautkremer and Alex Gibson
